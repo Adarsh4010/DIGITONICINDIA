@@ -5,7 +5,7 @@ import ServiceCard from './Component/ServiceCard';
 // import ServiceCard from "./components/ServiceCard";
 import { services } from "./servicesdata";
 import Platforms from './pages/platforms';
-import CompanyState from './pages/companystate';
+import CompanyState from './pages/CompanyState.jsx';
 // import ReviewCards from './pages/ReviewCard';
 import ReviewCard from './pages/ReviewCard';
 import Aboutus from './pages/Aboutus';
