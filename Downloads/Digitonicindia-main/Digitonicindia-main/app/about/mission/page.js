@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from "next/image";
 
 const mission = () => {
   return (
@@ -43,13 +44,14 @@ const mission = () => {
             </div>
 
             {/* Image */}
-            <div className="md:w-1/2 w-full h-64 md:h-80">
-              <img
-                src="/images/aboutusimage.png" // public folder ke hisab se path
-                alt="About Us"
-                className="w-full h-full object-cover rounded-xl shadow-md"
-              />
-            </div>
+          <div className="md:w-1/2 w-full h-64 md:h-80 relative">
+  <Image
+    src="/images/aboutusimage.png"  // public folder path
+    alt="About Us"
+    fill   // responsive full width + height ke liye (width/height dene ki zarurat nahi)
+    className="object-cover rounded-xl shadow-md"
+  />
+</div>
           </div>
 
           <div className="text-gray-700  mx-auto md:m-5">

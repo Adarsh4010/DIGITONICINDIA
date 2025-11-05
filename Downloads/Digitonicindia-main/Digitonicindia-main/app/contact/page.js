@@ -245,7 +245,7 @@ export default function ContactSection() {
         {/* Heading */}
         <div className="text-center  max-w-2xl mb-10">
           <h1 className="text-3xl md:text-4xl font-bold text-blue-600 mb-3">
-            Let's Talk?
+            Lets Talk?
           </h1>
           <p className="text-gray-600 text-sm md:text-base">
             Talk to one of our consultants today and learn how to start
